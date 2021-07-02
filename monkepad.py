@@ -37,7 +37,7 @@ FILETYPES = [
 #------------------
 #Window
 root = tk.Tk()
-root.title('PyPad')
+root.title('MonkePad')
 
 text = tk.Text(root,
     bg = BACKGROUND,
