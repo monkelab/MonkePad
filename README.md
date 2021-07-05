@@ -6,7 +6,7 @@ Since MonkePad is written in one file, all your customization can be done withou
 
 
 ## Modification
-MonkePad has multiple constants declared near the top of the file
+MonkePad has multiple constants declared near the top of the file<br/>
 ![image](https://user-images.githubusercontent.com/80077386/124516274-1d386480-dd96-11eb-9d49-1b568cede2f1.png)
 
 You can change these to fit your wants. For example:
