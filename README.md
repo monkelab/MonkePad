@@ -1,7 +1,7 @@
 # monkepad
 A simple Notepad-like editor written in Python
 
-Since MonkePad is written in one file, all your customization can be done without much trouble, and you can transfer it easily.
+Since MonkePad is written in one file, all your customization can be done without much trouble, and you can transfer it easily. <br/>
 **Note: MonkePad should be run with `python3` NOT `python` because of different module names between the versions.**
 
 
