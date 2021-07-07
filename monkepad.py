@@ -36,7 +36,8 @@ FILETYPES = [
     ('Pascal File', '*.pas'),
     ('Brainf*ck File', '*.bf'),
     ('F# File', '*.fs *.fsi *.fsx'),
-    ('Emacs Lisp File', '*.el *.elc')
+    ('Emacs Lisp File', '*.el *.elc'),
+    ('CSV File', '*.csv')
 ]
 
 #------------------
