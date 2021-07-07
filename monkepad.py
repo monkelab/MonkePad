@@ -19,7 +19,7 @@ FILETYPES = [
     ('C File','*.c'),
     ('HolyC File','*.hc'),
     ('C++ File','*.cpp *.cxx'),
-    ('HTML File','*.html'),
+    ('HTML File','*.html','.htm'),
     ('JavaScript File','*.js'),
     ('TypeScript File','*.ts'),
     ('CSS File','*.css'),
