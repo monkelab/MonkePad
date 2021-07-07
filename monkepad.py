@@ -91,7 +91,7 @@ def save_file(event):
     FILE_CONTENT = text_to_save
     file.close()
 
-    print(f'{FILE_NAME} saved successfully')
+    print(f'{file.name} saved successfully')
 
 menubar = tk.Menu(root)
 filemenu = tk.Menu(menubar, tearoff=0)
