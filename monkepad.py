@@ -58,7 +58,6 @@ def new_file(event):
     global FILE_NAME, FILE_CONTENT
     FILE_NAME = ''
     FILE_CONTENT = ''
-    REVERT_CONTENT = ''
     text.delete(1.0, 'end')
 
 #------------------
