@@ -17,6 +17,7 @@ You can change these to fit your wants. For example:
 ## Building
 ```shell
 pip install pyinstaller
-pyinstaller --onefile monkepad.py```
+pyinstaller --onefile monkepad.py
+```
 
 [MonkePad color palette](https://lospec.com/palette-list/1bit-monitor-glow)
