@@ -18,7 +18,7 @@ FILETYPES = [
     ('Lua File','*.lua'),
     ('C File','*.c'),
     ('HolyC File','*.hc'),
-    ('C++ File','*.cpp *.cxx'),
+    ('C++ File','*.cpp *.cxx *.c++'),
     ('HTML File','*.html *.htm'),
     ('JavaScript File','*.js'),
     ('TypeScript File','*.ts'),
@@ -29,9 +29,15 @@ FILETYPES = [
     ('Forth File','*.forth'),
     ('Ruby File','*.rb'),
     ('PHP File','*.php'),
-    ('Java File', '*.java'),
-    ('Lisp File','*.lisp'),
+    ('Java File', '*.java *.jav'),
+    ('Lisp File','*.lisp *.lsp'),
     ('Scheme File','*.scm'),
+    ('Kotlin File', '*.kt'),
+    ('Pascal File', '*.pas'),
+    ('Brainf*ck File', '*.bf'),
+    ('F# File', '*.fs *.fsi *.fsx'),
+    ('Emacs Lisp File', '*.el *.elc'),
+    ('CSV File', '*.csv')
 ]
 
 #------------------
