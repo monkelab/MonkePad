@@ -14,5 +14,9 @@ You can change these to fit your wants. For example:
 ![image](https://user-images.githubusercontent.com/80077386/124516387-5d97e280-dd96-11eb-9ffd-daa94dc9d865.png)<br/>
 ![image](https://user-images.githubusercontent.com/80077386/124516359-4ce76c80-dd96-11eb-8d33-9a17ab8c6a30.png)
 
+## Building
+```shell
+pip install pyinstaller
+pyinstaller --onefile monkepad.py```
 
 [MonkePad color palette](https://lospec.com/palette-list/1bit-monitor-glow)
