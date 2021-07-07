@@ -59,6 +59,7 @@ def new_file(event):
     FILE_NAME = ''
     FILE_CONTENT = ''
     text.delete(1.0, 'end')
+    root.title('New File - MonkePad')
 
 #------------------
 #File functions
@@ -75,6 +76,7 @@ def open_file(event):
         FILE_NAME = filename
         FILE_CONTENT = file.read()
     print(f'{filename} opened successfully')
+    root.title(f'{filename} - MonkePad')
 
 def save_file(event):
     global FILE_NAME, FILE_CONTENT
@@ -91,6 +93,7 @@ def save_file(event):
     file.close()
 
     print(f'{file.name} saved successfully')
+    root.title(f'{file.name} - MonkePad')
 
 menubar = tk.Menu(root)
 filemenu = tk.Menu(menubar, tearoff=0)
