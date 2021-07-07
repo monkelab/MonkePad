@@ -32,6 +32,9 @@ FILETYPES = [
     ('Java File', '*.java'),
     ('Lisp File','*.lisp'),
     ('Scheme File','*.scm'),
+    ('Kotlin File', '*.kt'),
+    ('Pascal File', '*.pas'),
+    ('Brainf*ck File', '*.bf'),
 ]
 
 #------------------
