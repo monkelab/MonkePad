@@ -35,7 +35,8 @@ FILETYPES = [
     ('Kotlin File', '*.kt'),
     ('Pascal File', '*.pas'),
     ('Brainf*ck File', '*.bf'),
-    ('F Sharp File', '*.fs *.fsi *.fsx')
+    ('F# File', '*.fs *.fsi *.fsx'),
+    ('Emacs Lisp File', '*.el *.elc')
 ]
 
 #------------------
