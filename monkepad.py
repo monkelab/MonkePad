@@ -36,6 +36,7 @@ FILETYPES = [
     ('Pascal File', '*.pas'),
     ('Brainf*ck File', '*.bf'),
     ('F# File', '*.fs *.fsi *.fsx'),
+    ('C# File', '*.cs') 
     ('Emacs Lisp File', '*.el *.elc'),
     ('CSV File', '*.csv')
 ]
@@ -80,7 +81,7 @@ def open_file(event):
 
 def save_file(event):
     global FILE_NAME, FILE_CONTENT
-    file = fd.asksaveasfile(initialfile = FILE_NAME,
+    file = open(FILE_NAME, 'w') if FILE_NAME else fd.asksaveasfile(initialfile = FILE_NAME,
         defaultextension = '',
         filetypes = FILETYPES
     )
