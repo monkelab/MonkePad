@@ -93,6 +93,7 @@ def save_file(event):
     file.close()
 
     print(f'{file.name} saved successfully')
+    root.title(f'{file.name} - MonkePad')
 
 menubar = tk.Menu(root)
 filemenu = tk.Menu(menubar, tearoff=0)
