@@ -36,7 +36,7 @@ FILETYPES = [
     ('Pascal File', '*.pas'),
     ('Brainf*ck File', '*.bf'),
     ('F# File', '*.fs *.fsi *.fsx'),
-    ('C# File', '*.cs') 
+    ('C# File', '*.cs'),
     ('Emacs Lisp File', '*.el *.elc'),
     ('CSV File', '*.csv')
 ]
@@ -90,6 +90,7 @@ def save_file(event):
     text_to_save = str(text.get(1.0, 'end'))
     file.write(text_to_save)
     
+    FILE_NAME = file.name
     FILE_CONTENT = text_to_save
     file.close()
 
