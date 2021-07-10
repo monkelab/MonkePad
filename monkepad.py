@@ -27,8 +27,8 @@ FILETYPES = [
     ('Markdown File','*.md'),
     ('Assembly File','*.asm *.s'),
     ('Forth File','*.forth'),
-    ('Ruby File','*.rb'),
-    ('PHP File','*.php'),
+    ('Ruby File','*.rb *.rhtml'),
+    ('PHP File','*.php *.php3 *.php4 *.phtml'),
     ('Java File', '*.java *.jav'),
     ('Lisp File','*.lisp *.lsp'),
     ('Scheme File','*.scm'),
@@ -39,7 +39,8 @@ FILETYPES = [
     ('C# File', '*.cs'),
     ('Emacs Lisp File', '*.el *.elc'),
     ('CSV File', '*.csv'),
-    ('XML File', '*.xml *.rss')
+    ('XML File', '*.xml *.rss'),
+    ('Ada File', '*.ada *.adb *.ads'),
 ]
 
 #------------------
