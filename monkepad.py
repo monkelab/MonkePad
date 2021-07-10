@@ -38,7 +38,8 @@ FILETYPES = [
     ('F# File', '*.fs *.fsi *.fsx'),
     ('C# File', '*.cs'),
     ('Emacs Lisp File', '*.el *.elc'),
-    ('CSV File', '*.csv')
+    ('CSV File', '*.csv'),
+    ('XML File', '*.xml *.rss')
 ]
 
 #------------------
