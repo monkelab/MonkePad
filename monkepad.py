@@ -41,6 +41,7 @@ FILETYPES = [
     ('CSV File', '*.csv'),
     ('XML File', '*.xml *.rss'),
     ('Ada File', '*.ada *.adb *.ads'),
+    ('Arduino File', '*.ino')
 ]
 
 #------------------
