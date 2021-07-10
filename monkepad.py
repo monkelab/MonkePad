@@ -30,7 +30,7 @@ FILETYPES = [
     ('Ruby File','*.rb *.rhtml'),
     ('PHP File','*.php *.php3 *.php4 *.phtml'),
     ('Java File', '*.java *.jav'),
-    ('Lisp File','*.lisp *.lsp'),
+    ('Common Lisp File','*.lisp *.lsp'),
     ('Scheme File','*.scm'),
     ('Kotlin File', '*.kt'),
     ('Pascal File', '*.pas'),
@@ -44,7 +44,17 @@ FILETYPES = [
     ('Arduino File', '*.ino'),
     ('Batchfile', '*.bat *.cmd'),
     ('Shell File', '*.sh *.bash *.bats *.cgi *.command *.fcgi *.ksh *.sh.in *.tmux *.tool *.zsh'),
-    ('Powershell File', '*.ps1 *.psd1 *.psm1')
+    ('Powershell File', '*.ps1 *.psd1 *.psm1'),
+    ('CMake File', '*.cmake'),
+    ('COBOL File', '*.cob *.cbl *.cobol *.cpy'),
+    ('Clojure File', '*.clj *.boot'),
+    ('Coq File', '*.coq'),
+    ('D File', '*.d *.di'),
+    ('Dart File', '*.dart'),
+    ('Dockerfile', '*.dockerfile'),
+    ('Go File', '*.go'),
+    ('Gradle File', '*.gradle'),
+    ('Haskell File', '*.hs *.hsc')
 ]
 
 #------------------
