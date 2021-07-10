@@ -54,7 +54,14 @@ FILETYPES = [
     ('Dockerfile', '*.dockerfile'),
     ('Go File', '*.go'),
     ('Gradle File', '*.gradle'),
-    ('Haskell File', '*.hs *.hsc')
+    ('Haskell File', '*.hs *.hsc'),
+    ('JSON File', '*.json *.lock'),
+    ('Makefile', '*.mak *.mkfile'),
+    ('Perl File', '*.pl'),
+    ('R File', '*.r'),
+    ('SQL File', '*.sql'),
+    ('Swift File', '*.swift'),
+    ('TeX File', '*.tex')
 ]
 
 #------------------
