@@ -41,7 +41,10 @@ FILETYPES = [
     ('CSV File', '*.csv'),
     ('XML File', '*.xml *.rss'),
     ('Ada File', '*.ada *.adb *.ads'),
-    ('Arduino File', '*.ino')
+    ('Arduino File', '*.ino'),
+    ('Batchfile', '*.bat *.cmd'),
+    ('Shell File', '*.sh *.bash *.bats *.cgi *.command *.fcgi *.ksh *.sh.in *.tmux *.tool *.zsh'),
+    ('Powershell File', '*.ps1 *.psd1 *.psm1')
 ]
 
 #------------------
