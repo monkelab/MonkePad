@@ -62,7 +62,8 @@ FILETYPES = [
     ('SQL File', '*.sql'),
     ('Swift File', '*.swift'),
     ('TeX File', '*.tex'),
-    ('Unix Configuration File', '.conf')
+    ('Unix Configuration File', '*.conf'),
+    ('Wolfram Notebook', '*.nb')
 ]
 
 #------------------
