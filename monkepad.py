@@ -61,7 +61,8 @@ FILETYPES = [
     ('R File', '*.r'),
     ('SQL File', '*.sql'),
     ('Swift File', '*.swift'),
-    ('TeX File', '*.tex')
+    ('TeX File', '*.tex'),
+    ('Unix Configuration File', '.conf')
 ]
 
 #------------------
